@@ -22,7 +22,7 @@ from argparse import ArgumentParser
 parser = ArgumentParser()
 parser.add_argument('--batch_size', type=int, default=1)
 parser.add_argument('--in_features', type=int, default=1)
-parser.add_argument('--n_iterations', type=int)
+parser.add_argument('--n_iterations', type=int, default=100)
 parser.add_argument('--n_layers', type=int)
 parser.add_argument('--out_features', type=int, default=1)
 args = parser.parse_args()
